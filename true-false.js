@@ -47,7 +47,7 @@
 
 let names = 0;
 if (names || names == 0) {
-  console.log("Condition Is True");
+  console.log("Condition Is True"); // true
 } else {
   console.log("Condition Is False");
 }
