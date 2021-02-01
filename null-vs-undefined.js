@@ -43,4 +43,4 @@
 // console.log(fun); // undefined
 
 let age = [1, 2, 4, 55, 21, 31];
-console.log(age[66]);
+console.log(age[66]); //// undefined
