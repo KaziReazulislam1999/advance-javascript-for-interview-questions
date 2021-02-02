@@ -1,29 +1,29 @@
-let studentsInfo = [
-  {
-    id: 09,
-    name: "Reazul",
-    age: 21,
-    gpa: 8.09,
-  },
-  {
-    id: 08,
-    name: "Monirul",
-    age: 29,
-    gpa: 2.09,
-  },
-  {
-    id: 07,
-    name: "somirul",
-    age: 99,
-    gpa: 3.09,
-  },
-  {
-    id: 06,
-    name: "komirul",
-    age: 18,
-    gpa: 2.09,
-  },
-];
+// let studentsInfo = [
+//   {
+//     id: 09,
+//     name: "Reazul",
+//     age: 21,
+//     gpa: 8.09,
+//   },
+//   {
+//     id: 08,
+//     name: "Monirul",
+//     age: 29,
+//     gpa: 2.09,
+//   },
+//   {
+//     id: 07,
+//     name: "somirul",
+//     age: 99,
+//     gpa: 3.09,
+//   },
+//   {
+//     id: 06,
+//     name: "komirul",
+//     age: 18,
+//     gpa: 2.09,
+//   },
+// ];
 // function studentsName() {
 //   return studentsInfo.filter(function (x) {
 //     return x.gpa < 3;
@@ -71,7 +71,53 @@ let studentsInfo = [
 
 // third bracket na use kore arrow function
 
-const students = (x) => {
-  return studentsInfo.filter((x) => x.age > 20).map((y) => y.name);
-};
-console.log(students());
+// const students = (x) => {
+//   return studentsInfo.filter((x) => x.age > 20).map((y) => y.name);
+// };
+// console.log(students());
+
+// const names = ["Reazul", "khabir", "Jamal", "kamal"];
+
+// const newName = names.map((x) => {
+//   return x.toUpperCase();
+// });
+
+// console.log(newName);
+
+// const nameLowerCase = names.map((x) => {
+//   return x.toLowerCase();
+// });
+// console.log(nameLowerCase);
+
+let studentsInfo = [
+  {
+    id: 09,
+    name: "Reazul",
+    age: 21,
+    gpa: 8.09,
+  },
+  {
+    id: 08,
+    name: "Monirul",
+    age: 29,
+    gpa: 2.09,
+  },
+  {
+    id: 07,
+    name: "somirul",
+    age: 99,
+    gpa: 3.09,
+  },
+  {
+    id: 06,
+    name: "komirul",
+    age: 18,
+    gpa: 2.09,
+  },
+];
+
+const items = studentsInfo.map((x) => {
+  return x.name;
+});
+
+console.log(items);
