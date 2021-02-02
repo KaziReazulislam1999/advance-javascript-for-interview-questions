@@ -65,7 +65,7 @@ numbers.forEach(function (x, index, arr) {
 });
 console.log(numbers);
 
-const ages = [4, 2, 3, 6, 7, 89, 0];
+const ages = [4, 2, 3, 6, 7, 90, 89, 0];
 ages.forEach(function (x, index, arr) {
   arr[index] = x - 1;
 });
